@@ -1,2 +1,7 @@
 fastapi==0.68.0
 uvicorn==0.15.0
+python-dotenv==1.0.0
+langchain==0.0.120
+langchain-core==0.0.5
+langchain-community==0.0.1  
+langchain-text-splitters==0.0.2

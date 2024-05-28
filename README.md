@@ -46,7 +46,7 @@ Features
 
 4. **Start the backend server:**
 
-   uvicorn main:app --reload --port 8000
+   uvicorn main:app --reload --port 8001
 
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features to suggest.

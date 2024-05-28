@@ -14,6 +14,9 @@ from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint
 from langchain_community.vectorstores import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+
+
+
 load_dotenv()
 
 HUGGINGFACEHUB_API_TOKEN = os.getenv('HUGGINGFACEHUB_API_TOKEN')
