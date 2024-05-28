@@ -18,28 +18,35 @@ Features
 1. **Clone the repository:**
 
    git clone https://github.com/your-username/pdf-query-app.git
+
    cd pdfQuery
-   
-3. **Set up the backend:**
+
+2. **Set up the backend:**
 
    Navigate to the server directory:
+
    cd server
-   
+
    Create and activate a virtual environment:
+
    python -m venv venv
+
    On Windows, use `venv\Scripts\activate`
 
-4. **Set up the frontend:**
+3. **Set up the frontend:**
    Navigate to the frontend directory:
+
    cd client
+
    npm install
-   
+
    Starting the frontend:
+
    npm run dev
-6. **Start the backend server:**
+
+4. **Start the backend server:**
 
    uvicorn main:app --reload --port 8000
 
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features to suggest.
-   
